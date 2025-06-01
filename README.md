@@ -22,10 +22,9 @@ All annotations follow the YOLO format, and the class list is defined in the `da
 | File / Folder                  | Description                                                      |
 |-------------------------------|------------------------------------------------------------------|
 | `yolov11_detection_pipeline.ipynb` | Complete pipeline for training, evaluation, and inference    |
-| `data.yaml`                   | Contains dataset configuration and class mappings                |
-| `predictions.csv`            | Predicted class names per image                                  |
-| `predictions_with_bboxes.csv`| Bounding box outputs with confidence scores                      |
-| `images/`                    | Folder for storing visual outputs of model predictions           |
+| `submission.csv`            | Predicted class names per image                                  |
+| `bounding_box.csv`| Bounding box outputs with confidence scores                      |
+| `best.pt`                    | model weights for best performing model           |
 
 ---
 
